@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    flex-grow: 0;
+}
+
+.menu ul li a {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu .menu-ul {
+    column-gap: 30px;
+    align-items: center;
+}
+
+.menu ul li a :hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.menu-icono {
+    background-image: url(./../img/Hambur-logo\ \(1\).png);
+}
+
+.menu-button {
+    border: none;
+}
+
+img {
+    width: 150px;
+}
+
+.padding-0 {
+    padding: 0
+}
+
+/* main de index */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    align-content: stretch;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    color: darkcyan;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    place-items: center center;
+}
+
+.wsp {
+    display: flex;
+    justify-items: end;
+    width: 100px;
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    padding: 0px;
+}
+
+.wsp img {
+    width: 50px;
+}
+
+.btn{
+    background-color:#049ce2;
+    margin: 20px;
+}
+
+.btn:hover{
+    background-color: #dce444;
+}
+
+/*acerca del hospi*/
+
+.contenedor-acerca-hospi{
+    width: 100%;
+    margin: auto;
+    padding: 20px 5px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.card-acerca-hospi{
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.contenedor-parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido img{
+    width: 100%;
+}
+.contenido .titulo-secundario{
+    font-size: 80px;
+}
+.contenedor-parrafo h3{
+    font-size: 30px;
+    color: #09a29c;
+    font-weight: 600;
+    align-items: center;
+}
+
+.contenedor-parrafo ul{
+    padding-left: 0%;
+}
+.contenedor-parrafo ul li{
+    list-style: none;
+}
+
+/* solicitar turnos*/
+.container-turnos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label{
+    color: cadetblue;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.col-6{
+    padding-top: 15px;
+}
+.btn{
+    background-color:#049ce2;
+    width: 100%;
+    font-size: medium;
+}
+.btn:hover{
+    background-color: #dce444;
+}
+
+/* Portal del paciente*/
+.container-portal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn{
+    background-color:#049ce2;
+    width: 100%;
+}
+.btn:hover{
+    background-color: #dce444;
+}
+.row{
+    align-items: center;
+}
+
+/* css de la primera antrega*/
+h1 {
+    color: darkcyan;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.titulo-secundario {
+    color: cadetblue;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-image: url(./../img/fondo-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.estilo-parrafos {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: darkcyan;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h5 {
+    color: darkslategray;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/*css del footer*/
+.pie-pagina {
+    width: 100%;
+    background-color: #e6eceb;
+}
+
+.grupo {
+    width: 100%;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 40px 0px;
+    background-color: #e6eceb;
+}
+
+.grupo .caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.grupo .caja img {
+    width: 40px;
+}
+
+.grupo .caja h3 {
+    color: #049ce2;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.grupo .caja h5 {
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.grupo .caja a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+media querys
+
+@media screen and (max-width: 1024px) {
+
+    .contenido img{
+        width: 50%;
+    }
+    
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pie-pagina {
+        width: 100%
+    }
+
+    .grupo {
+        width: 90%;
+        max-width: 1200px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu{
+        position: absolute;
+        top: 400px;
+        background-color:white;
+        width: 100%;
+    }
+
+        .container-portal{
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+}
+
+
+@media screen and (max-width: 768px){
+    
+    
+    .container{
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .grupo {
+        width: 90%;
+        max-width: 1200px;
+        grid-template-columns: repeat(1, 250px);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
