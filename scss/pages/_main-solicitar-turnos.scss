@@ -1,0 +1,23 @@
+.container-turnos {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.form-label {
+	color: $color-secundario;
+	font-size: $font-size-principal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: $font-weight-secundario;
+	padding-top: 5px;
+}
+.col-6 {
+	padding-top: 15px;
+}
+.btn {
+	background-color: $color-septimo;
+	width: $width-predeterminadas;
+	font-size: medium;
+	&:hover {
+		background-color: $color-octavo;
+	}
+}

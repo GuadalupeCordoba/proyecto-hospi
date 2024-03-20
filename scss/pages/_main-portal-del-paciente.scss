@@ -1,0 +1,15 @@
+//Main de Portal del paciente
+.container-portal {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.btn {
+	background-color: $color-septimo;
+	width: $width-predeterminadas;
+	&:hover {
+		background-color: $color-octavo;
+	}
+}
+.row {
+	align-items: center;
+}

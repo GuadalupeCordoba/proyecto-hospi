@@ -1,0 +1,39 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*estilos generales*/
+h1 {
+    color: nth($list: $colores, $n:1);
+    font-size: 60px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:nth($list: $fontweight, $n:3);
+}
+
+.titulo-secundario {
+    color: nth($list: $colores, $n:2);
+    font-size: $font-size-principal;
+    font-family:'Montserrat', sans-serif;
+    font-weight: nth($list: $fontweight, $n:2);
+}
+.estilo-parrafos {
+    color:nth($list: $colores, $n:3);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:nth($list: $fontweight, $n:1);
+    margin-bottom: 10px;
+}
+
+h3 {
+    color:nth($list: $colores, $n:1);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: nth($list: $fontweight, $n:1);
+}
+
+h5 {
+    @extend h3;
+    color: nth($list: $colores, $n:4);
+    font-size: 15px;
+    // font-family:'Montserrat', sans-serif;
+    // font-weight: nth($list: $fontweight, $n: 1);
+}

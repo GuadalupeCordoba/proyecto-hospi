@@ -1,13 +1,13 @@
 @import "utilities/variables";
 @import "utilities/mixin";
 @import "utilities/extends";
-@import "utilities/reset";
 @import "utilities/globals";
+@import "utilities/reset";
+@import "utilities/mediaQuery";
 @import "components/header";
+@import "components/footer";
 @import "pages/main.index";
 @import "pages/main-acerca-del-hospital";
 @import "pages/main-info-para-pacientes";
-@import "pages/main-portal-del-paciente";
 @import "pages/main-solicitar-turnos";
-@import "components/footer";
-@import "utilities/mediaQuery";
+@import "pages/main-portal-del-paciente";

@@ -1,0 +1,32 @@
+//Main info para el paciente
+
+.card {
+	@include flex(row, center,center);
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+	width: 18 rem;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 10px;
+	img {
+		width: $width-predeterminadas;
+		height: auto;
+		object-fit: cover;
+	}
+}
+.card-body {
+	padding: 10px;
+}
+.card-title {
+	color: $color-secundario;
+	font-size: $font-size-principal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: $font-weight-secundario;
+}
+.btn-primary {
+	background-color: $color-secundario;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+}

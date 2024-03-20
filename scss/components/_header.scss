@@ -1,0 +1,57 @@
+header {
+	nav {
+		ul {
+			list-style: none;
+		}
+	}
+	.menu {
+		flex-grow: 0;
+		z-index: 2;
+		top:68px;
+	}
+}
+
+	header {
+		nav {
+			ul {
+				li {
+					a {
+						color: $color-cuarto;
+						text-decoration: none;
+						font-size: $font-size-principal;
+						font-family: 'Montserrat', sans-serif;
+						font-weight: $font-weight-secundario;
+					}
+				}
+			}
+		}
+	}
+
+.menu {
+	ul {
+		li {
+			a {
+				color: $color-quinto;
+				font-size: 20px;
+				text-decoration: none;
+				&:hover {
+					color: $color_sexto;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.menu-ul {
+		column-gap: 30px;
+		align-items: center;
+	}
+}
+img {
+	width: 150px;
+}
+.menu-icono {
+	background-image: url(./../../img/hambur-logo\ \(1\).png);
+}
+.menu-button {
+	border: none;
+}

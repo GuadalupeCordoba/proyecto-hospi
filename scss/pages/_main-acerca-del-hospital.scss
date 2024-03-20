@@ -1,0 +1,44 @@
+.contenedor-acerca-hospi {
+	width: $width-predeterminadas;
+	margin: auto;
+	padding: 20px 5px;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+.card-acerca-hospi {
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	display: grid;
+}
+.contenido {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	img {
+		width:$width-predeterminadas;
+	}
+	.titulo-secundario {
+		font-size: 80px;
+	}
+}
+.contenedor-parrafo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	h3 {
+		font-size: 30px;
+		color: $color-secundario;
+		font-weight: $font-weight-secundario;
+		align-items: center;
+	}
+	ul {
+		padding-left: 0%;
+		li {
+			list-style: none;
+		}
+	}
+}

@@ -1,16 +1,17 @@
-/{
+/*reset*/
+/* 
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
+}  */
+/* 
 html{
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 /*estilos generales*/
-
-h1 {
+/* h1 {
     color: darkcyan;
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
@@ -44,13 +45,12 @@ h5 {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-} 
+}  */
 
 /*header*/
-
 header nav ul {
     list-style: none;
-}*/
+}
 
 header nav ul li a {
     color: darkslategray;
@@ -63,6 +63,7 @@ header nav ul li a {
 header .menu {
     flex-grow: 0;
     z-index: 2;
+    top: 68px;
 }
 
 .menu ul li a {
@@ -86,15 +87,15 @@ img {
     width: 150px;
 }
 .menu-icono {
-    background-image: url(./../img/Hambur-logo\ \(1\).png);
+    background-image: url(./../img/hambur-logo\ \(1\).png)
 }
 
 .menu-button {
     border: none;
-}
+} */
 
 /* main de index */
-main {
+/* main {
     text-align: center;
     padding: 20px;
 }
@@ -168,11 +169,11 @@ main {
 
 .btn:hover{
     background-color: #dce444;
-}
+} */
 
 /* Main de acerca del hospi*/
 
-.contenedor-acerca-hospi{
+/* .contenedor-acerca-hospi{
     width: 100%;
     margin: auto;
     padding: 20px 5px;
@@ -219,46 +220,13 @@ main {
 }
 .contenedor-parrafo ul li{
     list-style: none;
-}
-/*Main de info para pacientes*/
+} */
 
-.card{
-    display: flex;
-    width: 18 rem;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.card img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-.card-body{
-    padding: 10px;
-}
-
-.card-title{
-    color: cadetblue;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-
-.btn-primary {
-    background-color: cadetblue;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+/*Main de info para pacientes */
 
 
 /*Main de solicitar turnos */
-.container-turnos{
+/* .container-turnos{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -281,10 +249,10 @@ main {
 }
 .btn:hover{
     background-color: #dce444;
-}
+} */
 
 /*Main de Portal del paciente*/
-.container-portal{
+/* .container-portal{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -298,10 +266,10 @@ main {
 }
 .row{
     align-items: center;
-}
+} */
 
 /*Footer*/
-.pie-pagina {
+/* .pie-pagina {
     width: 100%;
     background-color: #e6eceb;
 }
@@ -344,24 +312,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-}*/
+} */
 
 /*media querys*/
-
+/* 
 @media screen and (max-width: 1024px) {
-
-.contenido img{
+    .contenido img{
         width: 50%;
     }
-    
     .container{
         grid-template-columns: repeat(2, 1fr);
     }
-
-.pie-pagina {
+    .pie-pagina {
         width: 100%
     }
-
     .grupo {
         width: 90%;
         max-width: 1200px;
@@ -369,21 +333,19 @@ main {
         grid-gap: 30px;
         padding: 35px 0px;
     }
-} 
+}
 
 @media screen and (max-width: 991px){
 
-.container{
+    .container{
         grid-template-columns: repeat(2, 1fr);
     } 
-
     .menu{
         position: absolute;
         top: 400px;
         background-color:white;
         width: 100%;
     } 
-
 .container-portal{
             grid-template-columns: repeat(1, 1fr);
         }
@@ -391,7 +353,6 @@ main {
 
 
 @media screen and (max-width: 768px){
-/  
     .container{
         grid-template-columns: repeat(1, 250px);
     } 
@@ -403,4 +364,4 @@ main {
         grid-gap: 30px;
         padding: 35px 0px;
     }
-} 
+}  */
