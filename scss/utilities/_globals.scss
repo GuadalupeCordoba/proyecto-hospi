@@ -24,11 +24,13 @@ h1 {
 }
 
 h3 {
-    color:nth($list: $colores, $n:1);
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: nth($list: $fontweight, $n:1);
-}
+    @extend h1;
+        // color:nth($list: $colores, $n:1);
+        // font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: nth($list: $fontweight, $n:1);
+    }
+
 
 h5 {
     @extend h3;
