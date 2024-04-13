@@ -35,7 +35,7 @@ h3 {
 h5 {
     @extend h3;
     color: nth($list: $colores, $n:4);
-    font-size: 15px;
+    font-size: 10px;
     // font-family:'Montserrat', sans-serif;
     // font-weight: nth($list: $fontweight, $n: 1);
 }

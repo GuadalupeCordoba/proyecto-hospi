@@ -3,7 +3,7 @@ html {
 }
 
 /*estilos generales*/
-h1, h3, h5 {
+h1 {
   color: darkcyan;
   font-size: 60px;
   font-family: "Montserrat", sans-serif;
@@ -24,14 +24,16 @@ h1, h3, h5 {
   margin-bottom: 10px;
 }
 
-h3, h5 {
+h3 {
+  color: darkcyan;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 
 h5 {
-  color: Darkslategray;
-  font-size: 15px;
+  color: black;
+  font-size: 10px;
 }
 
 /*reset*/
@@ -40,6 +42,9 @@ h5 {
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/*Header*/
 
 header nav ul {
   list-style: none;
@@ -84,6 +89,8 @@ img {
   border: none;
 }
 
+/*footer*/
+
 .pie-pagina {
   width: 100%;
   background-color: #e6eceb;
@@ -107,7 +114,7 @@ img {
 .grupo .caja img {
   width: 40px;
 }
-.grupo .caja h3, .grupo .caja h5 {
+.grupo .caja h3 {
   color: #049ce2;
   margin-bottom: 15px;
   font-size: 20px;
@@ -116,7 +123,6 @@ img {
 .grupo .caja h5 {
   color: black;
   margin-bottom: 10px;
-  margin-top: 10px;
 }
 .grupo .caja a {
   display: flex;
@@ -124,62 +130,75 @@ img {
   justify-items: center;
 }
 
-main {
-  text-align: center;
-  padding: 20px;
+
+
+
+
+.main-inicio {
+    text-align: center;
+    padding: 20px;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.container-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.card {
-  flex-basis: calc(33.33% - 20px);
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  margin: 10px;
-  width: 300px;
+.card-inicio {
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
 }
-.card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+
+.card-inicio img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 5px;
-  margin: 10px;
-  align-content: stretch;
-  flex-wrap: nowrap;
-}
-.texto h2 {
-  color: darkcyan;
-  font-size: 25px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  place-items: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    align-content: stretch;
+    flex-wrap: nowrap;
 }
 
+.texto h2 {
+    color: darkcyan;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    place-items: center center;
+}
+
+
+/*wsp index*/
 .wsp {
-  display: flex;
-  justify-items: end;
-  width: 100%;
-  position: fixed;
-  bottom: 60px;
-  right: 0;
-  padding: 0px;
+  display:inline-block;
+	margin: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+	transition: transform 0.3s ease;
 }
 .wsp img {
   width: 50px;
+  height: auto;
+}
+
+.wsp:hover {
+  transform: scale(1.1); 
 }
 
 .btn {
@@ -196,6 +215,7 @@ main {
   background-color: #dce444;
 }
 
+/*main acerca del hospital*/
 .contenedor-acerca-hospi {
   width: 100%;
   margin: auto;
@@ -244,6 +264,7 @@ main {
   list-style: none;
 }
 
+/*Main info para el paciente*/
 .card {
   display: flex;
   flex-direction: row;
@@ -277,6 +298,7 @@ main {
   padding: 5px 10px;
   border-radius: 5px;
 }
+/*Main solicitar turno*/
 
 .container-turnos {
   display: grid;
@@ -304,6 +326,8 @@ main {
 .btn:hover {
   background-color: #dce444;
 }
+
+/*Main portal del paciente*/
 
 .container-portal {
   display: grid;

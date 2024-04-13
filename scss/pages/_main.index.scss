@@ -1,21 +1,22 @@
 //main index
-main {
+.main-inicio {
 	text-align: center;
 	padding: 20px;
 }
-.container {
+.container-index {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.card {
+
+.card-inicio {
 	flex-basis: calc(33.33% - 20px);
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	margin: 10px;
 	width: 300px;
 	img {
-		width: $width-predeterminadas;
+		width:$width-predeterminadas;
 		height: auto;
 		object-fit: cover;
 		border-top-left-radius: 10px;
@@ -42,17 +43,22 @@ main {
 	}
 }
 .wsp {
-	display: flex;
-	justify-items: end;
-	width: $width-predeterminadas;
+	display:inline-block;
+	margin: 10px;
 	position: fixed;
-	bottom: 60px;
-	right: 0;
-	padding: 0px;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+	transition: transform 0.3s ease;
 	img {
 		width: 50px;
+		height: auto;
+	}
+	&:hover {
+		transform: scale(1.1); 
 	}
 }
+
 .btn {
 	display: block;
 	width: $width-predeterminadas;

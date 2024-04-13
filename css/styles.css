@@ -1,12 +1,12 @@
 /*reset*/
-/* 
-*{
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }  */
-/* 
-html{
+
+/* html{
     font-family: 'Montserrat', sans-serif;
 } */
 
@@ -41,8 +41,8 @@ h3 {
 }
 
 h5 {
-    color: darkslategray;
-    font-size: 15px;
+    color: black;
+    font-size: 1opx;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }  */
@@ -95,18 +95,18 @@ img {
 }  */
 
 /* main de index */
-/* main {
+/* main-inicio {
     text-align: center;
     padding: 20px;
 }
 
-.container {
+.container-index {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.card {
+.card-inicio {
     flex-basis: calc(33.33% - 20px);
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -114,7 +114,7 @@ img {
     width: 300px;
 }
 
-.card img {
+.card-inicio img {
     width: 100%;
     height:auto;
     object-fit: cover;
@@ -143,17 +143,22 @@ img {
 }
 
 .wsp {
-    display: flex;
-    justify-items: end;
-    width: 100px;
-    position: fixed;
-    bottom: 60px;
-    right: 0;
-    padding: 0px;
+    ddisplay:inline-block;
+	margin: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+	transition: transform 0.3s ease;
 }
 
 .wsp img {
     width: 50px;
+    height: auto;
+}
+
+.wsp:hover {
+    transform: scale(1.1); 
 }
 
 .btn{
@@ -266,7 +271,7 @@ img {
 }
 .row{
     align-items: center;
-} */
+}  */
 
 /*Footer*/
 /* .pie-pagina {
@@ -312,11 +317,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-} */
+}  */
 
 /*media querys*/
-/* 
-@media screen and (max-width: 1024px) {
+
+/* @media screen and (max-width: 1024px) {
     .contenido img{
         width: 50%;
     }
@@ -364,4 +369,4 @@ img {
         grid-gap: 30px;
         padding: 35px 0px;
     }
-}  */
+}   */
